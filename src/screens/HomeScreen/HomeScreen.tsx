@@ -15,7 +15,8 @@ export default function HomeScreen() {
       />
       <Text style={styles.title}>Graciliano</Text>
       <Text style={styles.description}>
-        The right dev in the right place can create all the apps in the world...
+        "The right dev in the right place can create all the apps in the
+        world..."
       </Text>
       <View style={styles.tags}>
         <SkillTag label="HTML" />
