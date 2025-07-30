@@ -7,6 +7,7 @@ import {
 } from "@react-navigation/bottom-tabs";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { Colors } from "./src/utils/colors";
+import SkillsScreen from "./src/screens/SkillsScreen";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -30,6 +31,12 @@ const homeScreenOptions: BottomTabNavigationOptions = {
   ),
 };
 
+const skillsScreenOptions: BottomTabNavigationOptions = {
+  tabBarIcon: ({ color }) => (
+    <Ionicons name="book-sharp" size={20} color={color} />
+  ),
+};
+
 export default function App() {
   return (
     <NavigationContainer>
@@ -38,6 +45,11 @@ export default function App() {
           name="Home"
           component={HomeScreen}
           options={homeScreenOptions}
+        />
+        <Screen
+          name="Skills"
+          component={SkillsScreen}
+          options={skillsScreenOptions}
         />
       </Navigator>
       <StatusBar style="light" />
