@@ -33,7 +33,26 @@ export const styles = StyleSheet.create({
     fontStyle: "italic",
     fontWeight: "300",
     lineHeight: 24,
+    marginBottom: 40,
     textAlign: "center",
     width: "75%",
+  },
+  tags: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8,
+    justifyContent: "center",
+    width: "100%",
+  },
+  tag: {
+    backgroundColor: Colors.ORANGE,
+    padding: 8,
+  },
+  tagText: {
+    color: Colors.WHITE,
+    fontWeight: "700",
+    textTransform: "uppercase",
+    textAlign: "center",
+    // width: "100%",
   },
 });

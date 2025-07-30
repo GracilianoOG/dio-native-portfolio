@@ -16,6 +16,32 @@ export default function HomeScreen() {
       <Text style={styles.description}>
         The right dev in the right place can create all the apps in the world...
       </Text>
+      <View style={styles.tags}>
+        <View style={styles.tag}>
+          <Text style={styles.tagText}>HTML</Text>
+        </View>
+        <View style={styles.tag}>
+          <Text style={styles.tagText}>CSS</Text>
+        </View>
+        <View style={styles.tag}>
+          <Text style={styles.tagText}>SASS</Text>
+        </View>
+        <View style={styles.tag}>
+          <Text style={styles.tagText}>JavaScript</Text>
+        </View>
+        <View style={styles.tag}>
+          <Text style={styles.tagText}>TypeScript</Text>
+        </View>
+        <View style={styles.tag}>
+          <Text style={styles.tagText}>React</Text>
+        </View>
+        <View style={styles.tag}>
+          <Text style={styles.tagText}>React Native</Text>
+        </View>
+        <View style={styles.tag}>
+          <Text style={styles.tagText}>Styled Components</Text>
+        </View>
+      </View>
     </SafeAreaView>
   );
 }
