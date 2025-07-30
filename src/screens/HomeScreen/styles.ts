@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
     backgroundColor: Colors.VERY_DARK_GRAY,
     flex: 1,
     justifyContent: "center",
+    padding: 16,
   },
   photo: {
     borderColor: Colors.ORANGE,
