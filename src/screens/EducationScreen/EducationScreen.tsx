@@ -6,7 +6,7 @@ import { styles } from "./styles";
 export default function EducationScreen() {
   return (
     <View style={styles.container}>
-      <Text>Education</Text>
+      <Text style={styles.title}>Education</Text>
     </View>
   );
 }
