@@ -4,11 +4,15 @@ import { styles } from "./styles";
 import { Colors } from "../../utils/colors";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
-export default function SkillCard() {
+interface SkillCardProps {
+  name: string;
+}
+
+export default function SkillCard({ name }: SkillCardProps) {
   return (
     <View style={styles.container}>
       <View>
-        <Text style={styles.name}>TypeScript</Text>
+        <Text style={styles.name}>{name}</Text>
       </View>
       <View style={styles.stars}>
         <Ionicons name="star-sharp" size={20} color={Colors.ORANGE} />
