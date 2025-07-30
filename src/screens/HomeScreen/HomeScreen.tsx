@@ -12,7 +12,7 @@ export default function HomeScreen() {
           uri: "https://avatars.githubusercontent.com/u/72778164?s=500&v=4",
         }}
       />
-      <Text>Home screen</Text>
+      <Text style={styles.title}>Graciliano</Text>
     </SafeAreaView>
   );
 }

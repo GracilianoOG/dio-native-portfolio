@@ -16,4 +16,14 @@ export const styles = StyleSheet.create({
     marginBottom: 30,
     width: 250,
   },
+  title: {
+    color: Colors.WHITE,
+    fontSize: 24,
+    fontWeight: "700",
+    fontFamily: "monospace",
+    letterSpacing: 3,
+    textAlign: "center",
+    textTransform: "uppercase",
+    width: "100%",
+  },
 });
