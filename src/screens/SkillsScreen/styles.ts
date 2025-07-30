@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
     color: Colors.WHITE,
     fontSize: 28,
     fontFamily: "monospace",
+    marginBottom: 30,
     textTransform: "capitalize",
     width: "100%",
   },
