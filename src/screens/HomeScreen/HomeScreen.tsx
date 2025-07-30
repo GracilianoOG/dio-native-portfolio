@@ -2,6 +2,7 @@ import React from "react";
 import { Image, Text, View } from "react-native";
 import { styles } from "./styles";
 import { SafeAreaView } from "react-native-safe-area-context";
+import SkillTag from "../../components/SkillTag";
 
 export default function HomeScreen() {
   return (
@@ -17,30 +18,14 @@ export default function HomeScreen() {
         The right dev in the right place can create all the apps in the world...
       </Text>
       <View style={styles.tags}>
-        <View style={styles.tag}>
-          <Text style={styles.tagText}>HTML</Text>
-        </View>
-        <View style={styles.tag}>
-          <Text style={styles.tagText}>CSS</Text>
-        </View>
-        <View style={styles.tag}>
-          <Text style={styles.tagText}>SASS</Text>
-        </View>
-        <View style={styles.tag}>
-          <Text style={styles.tagText}>JavaScript</Text>
-        </View>
-        <View style={styles.tag}>
-          <Text style={styles.tagText}>TypeScript</Text>
-        </View>
-        <View style={styles.tag}>
-          <Text style={styles.tagText}>React</Text>
-        </View>
-        <View style={styles.tag}>
-          <Text style={styles.tagText}>React Native</Text>
-        </View>
-        <View style={styles.tag}>
-          <Text style={styles.tagText}>Styled Components</Text>
-        </View>
+        <SkillTag label="HTML" />
+        <SkillTag label="CSS" />
+        <SkillTag label="SASS" />
+        <SkillTag label="JavaScript" />
+        <SkillTag label="TypeScript" />
+        <SkillTag label="React" />
+        <SkillTag label="React Native" />
+        <SkillTag label="Styled Components" />
       </View>
     </SafeAreaView>
   );
