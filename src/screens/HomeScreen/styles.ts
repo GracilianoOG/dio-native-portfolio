@@ -26,4 +26,13 @@ export const styles = StyleSheet.create({
     textTransform: "uppercase",
     width: "100%",
   },
+  description: {
+    color: Colors.WHITE,
+    fontSize: 16,
+    fontStyle: "italic",
+    fontWeight: "300",
+    lineHeight: 24,
+    textAlign: "center",
+    width: "75%",
+  },
 });
