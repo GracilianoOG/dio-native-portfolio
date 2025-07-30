@@ -8,4 +8,12 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
   },
+  photo: {
+    borderColor: Colors.ORANGE,
+    borderWidth: 3,
+    borderRadius: 125,
+    height: 250,
+    marginBottom: 30,
+    width: 250,
+  },
 });
