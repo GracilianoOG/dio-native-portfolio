@@ -22,6 +22,7 @@ export const styles = StyleSheet.create({
     fontWeight: "700",
     fontFamily: "monospace",
     letterSpacing: 3,
+    marginBottom: 20,
     textAlign: "center",
     textTransform: "uppercase",
     width: "100%",
