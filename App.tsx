@@ -6,8 +6,10 @@ import {
   createBottomTabNavigator,
 } from "@react-navigation/bottom-tabs";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { Colors } from "./src/utils/colors";
 import SkillsScreen from "./src/screens/SkillsScreen";
+import EducationScreen from "./src/screens/EducationScreen";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -37,6 +39,12 @@ const skillsScreenOptions: BottomTabNavigationOptions = {
   ),
 };
 
+const educationScreenOptions: BottomTabNavigationOptions = {
+  tabBarIcon: ({ color }) => (
+    <FontAwesome name="graduation-cap" size={20} color={color} />
+  ),
+};
+
 export default function App() {
   return (
     <NavigationContainer>
@@ -50,6 +58,11 @@ export default function App() {
           name="Skills"
           component={SkillsScreen}
           options={skillsScreenOptions}
+        />
+        <Screen
+          name="Education"
+          component={EducationScreen}
+          options={educationScreenOptions}
         />
       </Navigator>
       <StatusBar style="light" />
