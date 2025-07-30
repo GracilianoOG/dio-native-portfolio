@@ -18,10 +18,6 @@ export default function SkillsScreen() {
         <SkillCard name="React Native" rating={[1, 1, 1]} />
         <SkillCard name="Styled Components" rating={[1, 1, 1, 0]} />
         <SkillCard name="Accessibility" rating={[1, 1, 1, 0]} />
-        <SkillCard name="Accessibility 2" rating={[1, 1, 1, 0]} />
-        <SkillCard name="Accessibility 3" rating={[1, 1, 1, 0]} />
-        <SkillCard name="Accessibility 4" rating={[1, 1, 1, 0]} />
-        <SkillCard name="Accessibility 5" rating={[1, 1, 1, 0]} />
       </ScrollView>
     </SafeAreaView>
   );
