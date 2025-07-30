@@ -12,8 +12,9 @@ export const styles = StyleSheet.create({
     color: Colors.WHITE,
     fontSize: 28,
     fontFamily: "monospace",
+    letterSpacing: 3,
     marginBottom: 30,
-    textTransform: "capitalize",
+    textTransform: "uppercase",
     width: "100%",
   },
 });
