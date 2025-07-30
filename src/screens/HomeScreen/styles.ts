@@ -45,15 +45,4 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     width: "100%",
   },
-  tag: {
-    backgroundColor: Colors.ORANGE,
-    padding: 8,
-  },
-  tagText: {
-    color: Colors.WHITE,
-    fontWeight: "700",
-    textTransform: "uppercase",
-    textAlign: "center",
-    // width: "100%",
-  },
 });
