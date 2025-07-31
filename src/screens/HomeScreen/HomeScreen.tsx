@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import { styles } from "./styles";
 import { SafeAreaView } from "react-native-safe-area-context";
 import SkillTag from "../../components/SkillTag";
