@@ -8,14 +8,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
   },
-  photo: {
-    borderColor: Colors.ORANGE,
-    borderWidth: 3,
-    borderRadius: 150,
-    height: 150,
-    marginBottom: 20,
-    width: 150,
-  },
   title: {
     color: Colors.WHITE,
     fontSize: 20,
