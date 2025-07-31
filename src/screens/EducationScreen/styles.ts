@@ -13,6 +13,7 @@ export const styles = StyleSheet.create({
     fontFamily: "monospace",
     fontSize: 28,
     letterSpacing: 3,
+    marginBottom: 40,
     textTransform: "uppercase",
     textAlign: "center",
     width: "100%",
