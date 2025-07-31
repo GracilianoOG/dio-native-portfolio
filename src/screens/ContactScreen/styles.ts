@@ -31,6 +31,7 @@ export const styles = StyleSheet.create({
     color: Colors.WHITE,
     fontSize: 14,
     fontWeight: "300",
+    marginBottom: 30,
     textAlign: "center",
     width: "100%",
   },
