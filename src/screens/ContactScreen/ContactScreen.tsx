@@ -1,11 +1,11 @@
 import React from "react";
 import { Image, Linking, Pressable, Text, View } from "react-native";
-
 import { styles } from "./styles";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function ContactScreen() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Image
         style={styles.photo}
         source={{
@@ -16,6 +16,6 @@ export default function ContactScreen() {
       <Text style={styles.description}>
         Developer, Gamer, Cooking Enthusiast
       </Text>
-    </View>
+    </SafeAreaView>
   );
 }
