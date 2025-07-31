@@ -10,6 +10,7 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { Colors } from "./src/utils/colors";
 import SkillsScreen from "./src/screens/SkillsScreen";
 import EducationScreen from "./src/screens/EducationScreen";
+import ContactScreen from "./src/screens/ContactScreen";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -45,6 +46,12 @@ const educationScreenOptions: BottomTabNavigationOptions = {
   ),
 };
 
+const contactScreenOptions: BottomTabNavigationOptions = {
+  tabBarIcon: ({ color }) => (
+    <Ionicons name="information-circle-sharp" size={20} color={color} />
+  ),
+};
+
 export default function App() {
   return (
     <NavigationContainer>
@@ -63,6 +70,11 @@ export default function App() {
           name="Education"
           component={EducationScreen}
           options={educationScreenOptions}
+        />
+        <Screen
+          name="Contact"
+          component={ContactScreen}
+          options={contactScreenOptions}
         />
       </Navigator>
       <StatusBar style="light" />
