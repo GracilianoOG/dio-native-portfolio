@@ -9,14 +9,6 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     padding: 16,
   },
-  photo: {
-    borderColor: Colors.ORANGE,
-    borderWidth: 3,
-    borderRadius: 125,
-    height: 250,
-    marginBottom: 30,
-    width: 250,
-  },
   title: {
     color: Colors.WHITE,
     fontSize: 24,
