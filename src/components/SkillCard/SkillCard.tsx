@@ -19,12 +19,18 @@ export default function SkillCard({ name, rating }: SkillCardProps) {
       switch (rating[i]) {
         case 1:
           stars.push(
-            <Ionicons name="star-sharp" size={SIZE} color={Colors.ORANGE} />
+            <Ionicons
+              key={i}
+              name="star-sharp"
+              size={SIZE}
+              color={Colors.ORANGE}
+            />
           );
           break;
         case 0:
           stars.push(
             <Ionicons
+              key={i}
               name="star-half-sharp"
               size={SIZE}
               color={Colors.ORANGE}
@@ -33,7 +39,12 @@ export default function SkillCard({ name, rating }: SkillCardProps) {
           break;
         default:
           stars.push(
-            <Ionicons name="star-outline" size={SIZE} color={Colors.WHITE} />
+            <Ionicons
+              key={i}
+              name="star-outline"
+              size={SIZE}
+              color={Colors.WHITE}
+            />
           );
       }
     }
