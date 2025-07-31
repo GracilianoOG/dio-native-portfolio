@@ -17,7 +17,7 @@ export default function ContactScreen() {
       <Text style={styles.description}>
         Developer, Gamer, Cooking Enthusiast
       </Text>
-      <View style={{ gap: 16 }}>
+      <View style={styles.links}>
         <ContactLink label="GitHub" url="https://github.com/GracilianoOG" />
         <ContactLink
           label="LinkedIn"

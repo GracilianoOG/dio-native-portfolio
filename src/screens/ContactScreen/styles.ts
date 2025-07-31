@@ -35,4 +35,5 @@ export const styles = StyleSheet.create({
     textAlign: "center",
     width: "100%",
   },
+  links: { gap: 16 },
 });
